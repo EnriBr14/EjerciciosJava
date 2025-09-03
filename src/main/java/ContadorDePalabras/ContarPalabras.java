@@ -13,7 +13,7 @@ public class ContarPalabras {
         Integer i = 0;
 
         for (String f : filosofos) {
-            //contador.put(filosofos, contador.getOrDefault(palabra, 0) + 1);
+
             contador.put(f,contador.getOrDefault(f,0) + 1);
         }
 
