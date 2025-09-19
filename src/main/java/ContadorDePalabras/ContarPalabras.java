@@ -21,10 +21,10 @@ public class ContarPalabras {
 
         System.out.println("Votos por filósofo: " + votos);
 
-        int suma = 0;
-        List<Integer> numeros = Arrays.asList(1,2,3,4,5,6,7,8,9,10,11);
+        int suma = 1;
+        List<Integer> numeros = Arrays.asList(2,2,3);
         for(Integer n : numeros){
-            suma += n;
+            suma *= n;
         }
         System.out.println(suma);
 
